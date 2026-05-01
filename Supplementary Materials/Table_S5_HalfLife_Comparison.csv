@@ -1,0 +1,6 @@
+Organ,HalfLife_mean_344,HalfLife_mean_688,HalfLife_mean_1375,HalfLife_sem_344,HalfLife_sem_688,HalfLife_sem_1375
+Brain,4.2635,4.4577,inf,0.3596,0.7430,
+Heart,3.3401,inf,inf,0.2676,,
+Kidney,3.3806,21.8691,inf,0.3495,17.0073,
+Liver,6.9367,inf,inf,2.2861,,
+Plasma,inf,inf,inf,,,

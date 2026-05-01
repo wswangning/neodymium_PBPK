@@ -1,0 +1,79 @@
+# Neodymium Nitrate PBPK Model Parameters
+# C57BL/6J Mouse (Male, 20-25g)
+
+## PHYSIOLOGICAL PARAMETERS ##
+
+# Body weight (kg)
+BW = 0.022
+
+# Organ weight fractions
+FW_liver = 0.055
+FW_kidney = 0.015
+FW_brain = 0.019
+FW_heart = 0.005
+FW_lung = 0.006
+FW_spleen = 0.005
+FW_fat = 0.10
+FW_muscle = 0.40
+FW_bone = 0.07
+FW_skin = 0.16
+FW_blood = 0.07
+FW_rest = 0.158
+
+# Cardiac output (L/h/kg)
+Qc_norm = 5.4
+
+# Blood flow fractions
+FQ_liver = 0.25
+FQ_kidney = 0.19
+FQ_brain = 0.02
+FQ_heart = 0.04
+FQ_lung = 0.02
+FQ_spleen = 0.02
+FQ_fat = 0.07
+FQ_muscle = 0.18
+FQ_bone = 0.05
+FQ_skin = 0.05
+FQ_rest = 0.11
+
+## PARTITION COEFFICIENTS ##
+# Tissue:Plasma partition coefficients
+Kp_liver = 2.5
+Kp_kidney = 3.0
+Kp_brain = 0.5
+Kp_heart = 1.2
+Kp_lung = 1.5
+Kp_spleen = 1.8
+Kp_fat = 0.3
+Kp_muscle = 0.8
+Kp_bone = 0.9
+Kp_skin = 0.7
+Kp_rest = 1.0
+
+## PHARMACOKINETIC PARAMETERS ##
+
+# Absorption
+Ka = 0.8      # Absorption rate constant (1/h)
+F = 0.15      # Oral bioavailability
+
+# Clearance
+CL_renal = 0.18    # Renal clearance (mL/min/kg)
+CL_hepatic = 0.05  # Hepatic clearance (L/h/kg)
+
+# Distribution
+Vd_central = 0.05  # Central volume (L/kg)
+
+# Metabolism (if applicable)
+Km = 50       # Michaelis constant (μM)
+Vmax = 0.25   # Maximum velocity (μmol/min)
+
+## DOSE PARAMETERS ##
+# Select one dose level
+# DOSE_MGKG = 344
+# DOSE_MGKG = 688
+DOSE_MGKG = 1375
+
+## MOLECULAR PROPERTIES ##
+MW_NdNO3 = 336.48  # Molecular weight (g/mol)
+logP = -1.2        # Log partition coefficient
+pKa = NA           # Not applicable (ionic compound)

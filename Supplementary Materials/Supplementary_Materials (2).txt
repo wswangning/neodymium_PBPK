@@ -1,0 +1,18 @@
+neodymium_PBPK/
+├── Supplementary_Materials/
+│   ├── Figures/
+│   │   ├── Figure_S1_Model_Diagram.png
+│   │   └── Figure_S2_Sobol_Indices.png
+│   ├── Tables/
+│   │   ├── Table_S3_NCA_Parameters.csv
+│   │   ├── Table_S5_HalfLife_Comparison.csv
+│   │   └── Table_S6_Sensitivity_Analysis.csv
+│   ├── Code/
+│   │   ├── Nd_PBPK_mrgsolve.R           # 或 Nd_PBPK_deSolve.R
+│   │   ├── plot_revised_figures.py
+│   │   ├── generate_nca_tables.py        # 生成补充表格的脚本
+│   │   └── sensitivity_analysis.R        # Sobol分析脚本
+│   └── Data/
+│       └── Processed_NCA_Results.csv
+├── README.md
+└── LICENSE
